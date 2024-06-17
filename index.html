@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendação de Filmes</title>
+    <link rel="stylesheet" href="./css/style.css">  
+</head>
+<body>
+    <header>
+		<div class="logotipo">
+			<img src="./img/pipoca.png" alt="Logo filmes">
+			<h1>Filmes</h1>
+		</div>
+        <nav>
+			<ul>
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="./feedback.html">feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="botao">
+    <form id="pesquisaForm">
+        <input name="pesquisa" placeholder="Digite o nome do filme"/>
+        <button type="submit">
+            <img src="./img/lupa.png" alt="pesquisar">
+        </button>
+    </form>
+    </div>
+    <div class="lista"></div>
+    <div class="paginacao">
+        <button id="anteriorpagina">Página Anterior</button>
+        <button id="proximapagina">Próxima Página</button>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

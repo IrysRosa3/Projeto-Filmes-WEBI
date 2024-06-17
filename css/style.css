@@ -1,0 +1,114 @@
+
+html, body {
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body > header{
+	height: 70px;
+	background: #000;
+	padding: 0 16px;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+}
+
+.logotipo{
+	display: flex;
+    align-items: center;
+}
+
+.logotipo img{
+	width: 60px;
+	height: 60px;
+}
+
+.logotipo h1{
+	color: #2d44c7;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+form#pesquisaForm{
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    width: 500px;
+    height: 30px;
+}
+
+form input {
+    padding: 5px;
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+form button {
+    border: none;
+    cursor: pointer;
+}
+
+form button img{
+    width: 30px;
+    height: 30px;
+}
+
+div.lista {
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.item {
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    border: 2px solid red;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+div.item img{
+    width: 100%;
+}
+
+div.item:hover {
+    background-color: rgb(243, 136, 136);
+    cursor: pointer;
+
+}
+
+.paginacao{
+    display: none;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+#anteriorpagina{
+    border-radius: 10px;
+    font-size: medium;
+    font-style: italic;
+    background-color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#proximapagina{
+    border-radius: 10px;
+    font-size: medium;
+    font-style: italic;
+    background-color: white;
+    margin: 5px;
+    cursor: pointer;
+}
