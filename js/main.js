@@ -78,3 +78,6 @@ frmPesquisa.onsubmit = (ev) => {
         currentPage++;
         buscarFilmes(currentQuery, currentPage);
     });
+
+
+    

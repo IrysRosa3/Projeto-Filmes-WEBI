@@ -5,6 +5,43 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Detalhes do Filme</title>
         <link rel="stylesheet" href="./css/style.css">
+        <style>
+body {
+    background-color: #aaaaaa;
+    color: #333;
+}
+
+#filmesDetalhes {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+}
+
+#filmesDetalhes img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+}
+
+#filmesDetalhes h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#filmesDetalhes p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+#filmesDetalhes p strong {
+    color: #c04a4a;
+}
+        </style>
     </head>
     <body>
         <header>
@@ -12,9 +49,14 @@
                 <img src="./img/pipoca.png" alt="Logo filmes">
                 <h1>Filmes</h1>
             </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./feedback.html">feedback</a></li>
+                </ul>
+            </nav>
         </header>
         <div class="detalhes" id="filmesDetalhes">
-
         </div>
         <script src="js/detalhes.js"></script>
     </body>
